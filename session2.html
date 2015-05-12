@@ -15,7 +15,7 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 		<link rel="stylesheet" href="reveal/css/reveal.css">
-		<link rel="stylesheet" href="reveal/css/theme/gdilight.css" id="theme">
+		<link rel="stylesheet" href="reveal/css/theme/gdidefault.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<!-- light editor<link rel="stylesheet" href="lib/css/light.css">-->
@@ -60,11 +60,8 @@
         
          <section>
         	<h3>What we'll be making today</h3>
-        	<div class="left" style="width: 45%;">
-        		<p>Today we will be making a site from scratch using divs and spans to create a header, footer, sidebar and a content area.</p>
-        	</div>
-        	<div class="right" style="width: 45%;">
-        		<img src="images/session2site.png">
+        	<div class="left" style="width: 100%;">
+        		<p>Today we will be making a site from scratch using divs and spans to create a header, footer, sidebar, and a content area. At the end of today we will take what we learn and create a four page site with a homepage, about page, services page, and contact page.</p>
         	</div>
         </section>
         
@@ -121,7 +118,7 @@
           <div class = "left-align">
           <ul>
           <li>The div tag is used everywhere to group elements together into sections.</li>
-          <li>For example, what if we want the first 2 paragraphs of a section to be right-aligned, purple & bold, but we don't want any other paragraphs to be right-aligned?</li>
+          <li>For example, what if we want the first 2 paragraphs of a section to be right-aligned, green &amp; bold, but we don't want any other paragraphs to be right-aligned?</li>
           <li>We would wrap them in a div element to style them differently.</li>
           </ul>
            </div>
@@ -132,7 +129,7 @@
 <pre><code class = "html">
 .align-right{
   text-align:right;
-  color: purple; 
+  color: green; 
   font-weight: bold;
 }
 </code></pre>
@@ -565,7 +562,7 @@ padding: 10px 5px 3px 5px;
             <ul>
             <li>"Floating" an element takes it in the normal flow, as far to the left or right of it's containing element as possible.</li>
             <li>Any other elements, such as paragraphs or lists, will wrap around the floated element.</li>
-            <li>Always specify a width when floating an element, otherwise the element is likely to take up the whole page and not appear floated.</li>
+            <li>Always specify a width when floating an element.</li>
             <li>You can specify a) whether an element is floated or not, and b) which side it ﬂoats on.</li>
             </ul>
          </div>
@@ -639,13 +636,32 @@ padding: 10px 5px 3px 5px;
         <!-- Exercise-->
        <section>
          <h3>Let's Develop It</h3>
-         <p>Let's float our side bar and content areas.</p>
+         <p>Let's float our sidebar and content areas.</p>
        </section>       <!-- Question-->
         <section>
           <h2>Questions?</h2>
           <div style = "font-size:1200%; height:100%; margin-top:30%" class ="blue">?
             <div class ="clear"></div></div>
         </section>
+
+        <section>
+          <h2>Let's Make Something</h2>
+          <small>
+          <ul>
+            <li>Create a folder structure with an index.html, about.html, services.html, and contact.html</li>
+            <li>Create an images folder and a style.css</li>
+            <li>Set up each page with a doctype, HTML, head, and body</li>
+            <li>Link your CSS to each page</li>
+            <li>Add a navigation and link to all of the pages on each page in a header ID</li>
+            <li>Add a heading and a title to each page</li>
+            <li>Add an image and a paragraph to the homepage</li>
+            <li>Add an image with a caption and several headings with paragraphs to the about page</li>
+            <li>Add a list to the services page</li>
+            <li>Add an email link and social links to the contact page</li>
+          </ul>
+        </small>
+        </section>
+      </div>
       </div>
       
       <footer>
